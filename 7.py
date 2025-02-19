@@ -9,4 +9,8 @@ for word in spis:
     else:
         word_count[word] = 1
 
-print(word_count)
+print("\nOutput:")
+for key, value in word_count.items():
+    print(f"{key}: {value}")
+
+#print(word_count)

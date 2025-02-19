@@ -7,9 +7,9 @@ while strings > 0:
     synonimous[inp[0]] = inp[1]
 
 syn = input()
+print("\nOutput:")
 for key, value in synonimous.items():
     if value == syn:
         print(key)
-
     elif key == syn:
         print(synonimous[syn])
